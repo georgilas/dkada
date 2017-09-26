@@ -2,7 +2,7 @@
 <html lang="el">
 <head>
   <meta charset="UTF-8">
-  <title>Λήψη ἐγγράφου βάσει ΑΔΑ</title>
+  <title>Λήψη εγγράφου βάσει ΑΔΑ</title>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
   <link rel='stylesheet prefetch' href='https://get.mavo.io/mavo.css'>
   <link rel="stylesheet" href="css/style.css">
@@ -10,10 +10,10 @@
 
 <body>
   <main id="app" mv-app mv-bar="none">
-    <h1>Λήψη ἐγγράφου ἀπό τήν ΔΙΑΥΓΕΙΑ βάσει ΑΔΑ</h1>
+    <h1>Λήψη εγγράφου από την ΔΙΑΥΓΕΙΑ βάσει ΑΔΑ</h1>
     <div>
       <label for="ada">ΑΔΑ:&nbsp;</label>
-      <input id="ada" property type="text" placeholder="Έἰσάγετε τόν ΑΔΑ ἐδῶ&hellip;">
+      <input id="ada" property type="text" placeholder="Έισάγετε τον ΑΔΑ εδώ&hellip;">
       <a mv-if="ada" href="https://diavgeia.gov.gr/doc/[/* js */ encodeURI(ada.toUpperCase())]">Λήψη αρχείου</a>
   </div>
   </main>
