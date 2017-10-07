@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Λήψη εγγράφου βάσει ΑΔΑ</title>
+  <script src='https://get.mavo.io/mavo.js'></script>
   <link rel="stylesheet" href="css/normalize.min.css">
   <link rel="stylesheet" href="css/skeleton.css">
   <link rel="stylesheet" href="css/style.css">
@@ -14,10 +15,9 @@
   <main id="app" mv-app mv-bar="none" class="container">
     <h1>Λήψη εγγράφου από την ΔΙΑΥΓΕΙΑ βάσει ΑΔΑ</h1>
     <div class="row">
-      <input id="ada" class="u-full-width" property type="text" placeholder="Εισάγετε τον ΑΔΑ&hellip;">
+      <input class="u-full-width" property="ada" type="text" placeholder="Εισάγετε τον ΑΔΑ&hellip;">
       <a mv-if="ada" class="button button-primary" href="https://diavgeia.gov.gr/doc/[/* js */ encodeURI(ada.toUpperCase())]">ΛΗΨΗ ΑΡΧΕΙΟΥ</a>
     </div>
   </main>
-  <script src='https://get.mavo.io/mavo.js'></script>
 </body>
 </html>
